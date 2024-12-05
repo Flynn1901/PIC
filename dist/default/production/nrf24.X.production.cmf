@@ -1,0 +1,1509 @@
+%CMF
+# %PSECTS Section
+# For each object file, details of its psects are enumerated here.
+# The begining of the section is indicated by %PSECTS.  The first
+# line indicates the name of the first object file, e.g.
+#    $foo.obj
+# Each line that follows describes a psect in that object file, until
+# the next object file.  The lines that describe a psect have the
+# format:
+#    <psect name> <class name> <space> <link address> <load addresses> <length> <delta> <reloc>
+# All addresses and the length are given in unqualified hexadecimal
+# in delta units.  Any other numeric values are decimal.
+%PSECTS
+$C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+init CODE 0 1A 1A 4 1 2
+reset_vec CODE 0 0 0 4 1 2
+config CONFIG 4 300000 300000 A 1 1
+$dist/default/production\nrf24.X.production.o
+ivt0x8 CODE 0 8 8 12 1 2
+cinit CODE 0 10B4E 10B4E 66 1 2
+text0 CODE 0 10914 10914 7E 1 2
+text1 CODE 0 10EFE 10EFE 36 1 2
+text2 CODE 0 1056C 1056C D0 1 2
+text3 CODE 0 10DBE 10DBE 48 1 2
+text4 CODE 0 10EC6 10EC6 38 1 2
+text5 CODE 0 10D22 10D22 50 1 2
+text6 CODE 0 1116A 1116A 8 1 2
+text7 CODE 0 11172 11172 8 1 2
+text8 CODE 0 10992 10992 72 1 2
+text9 CODE 0 10D72 10D72 4C 1 2
+text10 CODE 0 10F34 10F34 32 1 2
+text11 CODE 0 10C18 10C18 5C 1 2
+text12 CODE 0 10000 10000 1D6 1 2
+text13 CODE 0 1100C 1100C 26 1 2
+text14 CODE 0 10CD0 10CD0 52 1 2
+text15 CODE 0 101D6 101D6 1BE 1 2
+text16 CODE 0 10394 10394 104 1 2
+text17 CODE 0 10876 10876 9E 1 2
+text18 CODE 0 10E06 10E06 44 1 2
+text19 CODE 0 10708 10708 CA 1 2
+text20 CODE 0 110DC 110DC 1E 1 2
+text21 CODE 0 1117A 1117A 8 1 2
+text22 CODE 0 10FE4 10FE4 28 1 2
+text23 CODE 0 1063C 1063C CC 1 2
+text24 CODE 0 10F66 10F66 2A 1 2
+text25 CODE 0 10C74 10C74 5C 1 2
+text26 CODE 0 11032 11032 24 1 2
+text27 CODE 0 10F90 10F90 2A 1 2
+text28 CODE 0 10FBA 10FBA 2A 1 2
+text29 CODE 0 11182 11182 8 1 2
+text30 CODE 0 1118A 1118A 8 1 2
+text31 CODE 0 110FA 110FA 16 1 2
+text32 CODE 0 10A04 10A04 72 1 2
+text33 CODE 0 11056 11056 22 1 2
+text34 CODE 0 11078 11078 22 1 2
+text35 CODE 0 1109A 1109A 22 1 2
+text36 CODE 0 10E8A 10E8A 3C 1 2
+text37 CODE 0 11124 11124 E 1 2
+text38 CODE 0 11132 11132 E 1 2
+text39 CODE 0 107D2 107D2 A4 1 2
+text40 CODE 0 10E4A 10E4A 40 1 2
+text41 CODE 0 11140 11140 E 1 2
+text42 CODE 0 1114E 1114E E 1 2
+text43 CODE 0 1115C 1115C E 1 2
+text44 CODE 0 11110 11110 14 1 2
+text45 CODE 0 10498 10498 D4 1 2
+text46 CODE 0 10A76 10A76 6E 1 2
+text47 CODE 0 10BB4 10BB4 64 1 2
+text48 CODE 0 10AE4 10AE4 6A 1 2
+text49 CODE 0 11198 11198 2 1 2
+nvBANK5 BANK5 1 5E2 5E2 6 1 1
+cstackCOMRAM COMRAM 1 501 501 5B 1 1
+cstackBANK5 BANK5 1 5A1 5A1 41 1 1
+bssBANK5 BANK5 1 560 560 41 1 1
+idataBANK5 CODE 0 11192 11192 5 1 1
+idataBANK6 CODE 0 110BC 110BC 20 1 1
+dataBANK5 BANK5 1 5E8 5E8 5 1 1
+dataBANK6 BANK6 1 600 600 20 1 1
+bssCOMRAM COMRAM 1 55C 55C 3 1 1
+mediumconst MEDIUMCONST 0 FDC2 FDC2 23E 1 2
+config CONFIG 4 300000 300000 A 1 1
+# %UNUSED Section
+# This section enumerates the unused ranges of each CLASS. Each entry
+# is described on a single line as follows:
+#    <class name> <range> <delta>
+# Addresses given in the range are in hexadecimal and units of delta.
+%UNUSED
+RAM 5ED-5FF 1
+RAM 620-24FF 1
+SFR 0-4FF 1
+SFR 2500-25FF 1
+BANK5 5ED-5FF 1
+BANK6 620-6FF 1
+BANK7 700-7FF 1
+BANK8 800-8FF 1
+BANK9 900-9FF 1
+CONST 4-7 1
+CONST 1E-FDC1 1
+CONST 11197-11197 1
+CONST 1119A-1FFFF 1
+IDLOC 200000-20003F 1
+SMALLCONST 2600-FDC1 1
+SMALLCONST 11197-11197 1
+SMALLCONST 1119A-1FFFF 1
+CODE 4-7 1
+CODE 1E-FDC1 1
+CODE 11197-11197 1
+CODE 1119A-1FFFF 1
+BANK10 A00-AFF 1
+BANK11 B00-BFF 1
+BANK12 C00-CFF 1
+BANK13 D00-DFF 1
+BANK14 E00-EFF 1
+BANK15 F00-FFF 1
+BANK16 1000-10FF 1
+BANK17 1100-11FF 1
+BANK18 1200-12FF 1
+BANK19 1300-13FF 1
+BANK20 1400-14FF 1
+BANK21 1500-15FF 1
+BANK22 1600-16FF 1
+BANK23 1700-17FF 1
+BANK24 1800-18FF 1
+BANK25 1900-19FF 1
+BANK26 1A00-1AFF 1
+BANK27 1B00-1BFF 1
+BANK28 1C00-1CFF 1
+BANK29 1D00-1DFF 1
+BANK30 1E00-1EFF 1
+BANK31 1F00-1FFF 1
+BANK32 2000-20FF 1
+BANK33 2100-21FF 1
+BANK34 2200-22FF 1
+BANK35 2300-23FF 1
+BANK36 2400-24FF 1
+BIGRAM 55F-55F 1
+BIGRAM 5ED-5FF 1
+BIGRAM 620-24FF 1
+BIGSFR 0-4FF 1
+BIGSFR 2500-25FF 1
+COMRAM 55F-55F 1
+CONFIG 30000A-300011 1
+EEDATA 380000-3803FF 1
+MEDIUMCONST 2600-FDC1 1
+MEDIUMCONST 12600-1FFFF 1
+# %LINETAB Section
+# This section enumerates the file/line to address mappings.
+# The beginning of the section is indicated by %LINETAB.
+# The first line indicates the name of the first object file, e.g.
+#   $foo.obj
+# Each line that follows describes a single mapping until the next
+# object file.  Mappings have the following format:
+#    <address> <psect name> <class name> ><line number>:<file name>
+# The address is absolute and given given in unqualified hex 
+# in delta units of the psect. All mappings within an object file
+# are in ascending order of addresses.
+# All other numeric values are in decimal.
+%LINETAB
+$dist/default/production\nrf24.X.production.o
+11198 text49 CODE >423:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+11198 text49 CODE >426:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10AE4 text48 CODE >337:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10AE4 text48 CODE >339:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10AF8 text48 CODE >342:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10B04 text48 CODE >343:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10B08 text48 CODE >344:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10B14 text48 CODE >345:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10B18 text48 CODE >350:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10B1C text48 CODE >353:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10B30 text48 CODE >356:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10B32 text48 CODE >360:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10B44 text48 CODE >362:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10B48 text48 CODE >363:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10B4C text48 CODE >368:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10B4C text48 CODE >381:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10BB4 text47 CODE >383:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10BB4 text47 CODE >385:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10BC8 text47 CODE >388:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10BD6 text47 CODE >389:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10BDC text47 CODE >390:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10BE8 text47 CODE >399:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10BFA text47 CODE >401:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10BFC text47 CODE >405:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C0E text47 CODE >407:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C12 text47 CODE >408:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C16 text47 CODE >413:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C16 text47 CODE >422:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10A76 text46 CODE >80:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10A76 text46 CODE >83:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10A92 text46 CODE >85:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10A96 text46 CODE >86:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10A9A text46 CODE >87:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10AB6 text46 CODE >89:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10ABA text46 CODE >90:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10ABE text46 CODE >91:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10ADA text46 CODE >93:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10ADE text46 CODE >94:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10AE2 text46 CODE >98:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10AE2 text46 CODE >99:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10498 text45 CODE >105:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+1049A text45 CODE >107:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+1049A text45 CODE >108:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+104AA text45 CODE >110:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+104B0 text45 CODE >111:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+104CC text45 CODE >112:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+104F0 text45 CODE >113:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10518 text45 CODE >114:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+1053C text45 CODE >115:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10560 text45 CODE >116:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10562 text45 CODE >117:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10564 text45 CODE >118:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10566 text45 CODE >119:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10566 text45 CODE >120:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+1056A text45 CODE >121:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+1056A text45 CODE >126:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+11110 text44 CODE >39:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/clock.c
+11110 text44 CODE >42:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/clock.c
+11116 text44 CODE >44:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/clock.c
+11118 text44 CODE >46:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/clock.c
+1111A text44 CODE >53:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/clock.c
+1111E text44 CODE >54:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/clock.c
+11120 text44 CODE >55:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/clock.c
+11122 text44 CODE >58:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/clock.c
+1115C text43 CODE >119:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+1115C text43 CODE >120:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+11168 text43 CODE >121:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+1114E text42 CODE >145:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+1114E text42 CODE >146:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+1115A text42 CODE >147:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+11140 text41 CODE >171:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+11140 text41 CODE >172:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+1114C text41 CODE >173:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10E4A text40 CODE >42:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10E4A text40 CODE >45:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10E4C text40 CODE >49:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10E4E text40 CODE >50:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10E50 text40 CODE >52:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10E60 text40 CODE >57:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10E62 text40 CODE >58:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10E64 text40 CODE >60:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10E74 text40 CODE >65:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10E76 text40 CODE >66:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10E78 text40 CODE >68:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+10E88 text40 CODE >71:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/interrupt.c
+107D2 text39 CODE >38:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107D2 text39 CODE >43:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107D4 text39 CODE >44:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107D6 text39 CODE >45:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107D8 text39 CODE >46:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107DA text39 CODE >47:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107DC text39 CODE >48:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107DE text39 CODE >52:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107E2 text39 CODE >53:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107E4 text39 CODE >54:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107E6 text39 CODE >55:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107E8 text39 CODE >56:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107EA text39 CODE >57:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107EC text39 CODE >62:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107EE text39 CODE >63:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107F0 text39 CODE >64:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107F4 text39 CODE >65:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107F6 text39 CODE >66:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107FA text39 CODE >67:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+107FE text39 CODE >72:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10800 text39 CODE >73:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10802 text39 CODE >74:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10806 text39 CODE >75:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10808 text39 CODE >76:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+1080C text39 CODE >77:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10810 text39 CODE >82:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10812 text39 CODE >83:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10814 text39 CODE >84:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10816 text39 CODE >85:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10818 text39 CODE >86:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+1081A text39 CODE >87:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+1081C text39 CODE >93:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+1081E text39 CODE >94:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10820 text39 CODE >95:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10822 text39 CODE >96:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10824 text39 CODE >97:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10828 text39 CODE >98:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+1082A text39 CODE >103:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+1082C text39 CODE >104:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+1082E text39 CODE >105:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10830 text39 CODE >106:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10832 text39 CODE >107:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10836 text39 CODE >108:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10838 text39 CODE >113:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+1083C text39 CODE >114:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+1083E text39 CODE >115:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10840 text39 CODE >116:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10842 text39 CODE >120:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10846 text39 CODE >121:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+1084A text39 CODE >122:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+1084E text39 CODE >123:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10852 text39 CODE >124:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10856 text39 CODE >125:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+1085A text39 CODE >130:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+1085E text39 CODE >131:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10860 text39 CODE >132:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10862 text39 CODE >133:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10864 text39 CODE >134:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10866 text39 CODE >135:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10868 text39 CODE >136:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+1086A text39 CODE >137:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+1086C text39 CODE >138:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+1086E text39 CODE >139:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10870 text39 CODE >140:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10872 text39 CODE >141:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+10874 text39 CODE >144:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/pins.c
+11132 text38 CODE >327:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+11132 text38 CODE >329:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+1113E text38 CODE >330:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+11124 text37 CODE >332:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+11124 text37 CODE >334:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+11130 text37 CODE >335:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10E8A text36 CODE >79:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10E8A text36 CODE >82:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10E8C text36 CODE >83:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10E8E text36 CODE >84:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10E90 text36 CODE >87:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10E94 text36 CODE >88:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10E98 text36 CODE >89:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10E9A text36 CODE >90:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10E9C text36 CODE >91:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10E9E text36 CODE >93:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10EA0 text36 CODE >94:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10EB0 text36 CODE >95:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10EC0 text36 CODE >96:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10EC4 text36 CODE >97:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+1109A text35 CODE >324:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+1109A text35 CODE >326:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+110AE text35 CODE >328:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+110BA text35 CODE >330:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+11078 text34 CODE >332:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+11078 text34 CODE >334:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+1108C text34 CODE >336:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+11098 text34 CODE >338:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+11056 text33 CODE >340:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+11056 text33 CODE >342:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+1106A text33 CODE >344:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+11076 text33 CODE >346:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A04 text32 CODE >95:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A04 text32 CODE >101:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A08 text32 CODE >103:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A0A text32 CODE >105:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A0C text32 CODE >107:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A0E text32 CODE >109:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A10 text32 CODE >111:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A12 text32 CODE >113:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A14 text32 CODE >115:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A16 text32 CODE >117:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A18 text32 CODE >119:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A1A text32 CODE >121:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A1E text32 CODE >123:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A22 text32 CODE >125:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A26 text32 CODE >127:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A2A text32 CODE >129:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A2E text32 CODE >131:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A32 text32 CODE >133:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A34 text32 CODE >135:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A38 text32 CODE >137:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A3A text32 CODE >139:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A4A text32 CODE >140:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A5A text32 CODE >141:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A6A text32 CODE >143:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10A74 text32 CODE >144:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+110FA text31 CODE >38:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/system.c
+110FA text31 CODE >40:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/system.c
+110FE text31 CODE >41:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/system.c
+11102 text31 CODE >42:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/system.c
+11106 text31 CODE >43:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/system.c
+1110A text31 CODE >44:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/system.c
+1110E text31 CODE >45:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/system/src/system.c
+1118A text30 CODE >12:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+1118A text30 CODE >13:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+11190 text30 CODE >14:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+11182 text29 CODE >16:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+11182 text29 CODE >17:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+11188 text29 CODE >18:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10FBA text28 CODE >281:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10FBA text28 CODE >283:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10FBA text28 CODE >284:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10FCE text28 CODE >287:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10FD6 text28 CODE >290:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10FDA text28 CODE >291:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10FDE text28 CODE >292:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10FDE text28 CODE >294:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10FE0 text28 CODE >296:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10FE2 text28 CODE >297:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10F90 text27 CODE >262:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10F92 text27 CODE >264:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10FA6 text27 CODE >267:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10FAE text27 CODE >270:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10FB0 text27 CODE >271:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10FB4 text27 CODE >273:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10FB8 text27 CODE >279:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+11032 text26 CODE >69:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+11034 text26 CODE >70:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+11038 text26 CODE >71:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+1103C text26 CODE >72:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+11042 text26 CODE >73:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+11048 text26 CODE >74:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+1104E text26 CODE >75:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+11052 text26 CODE >76:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+11054 text26 CODE >77:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10C74 text25 CODE >198:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C74 text25 CODE >200:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C7C text25 CODE >202:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C90 text25 CODE >204:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C94 text25 CODE >207:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C9C text25 CODE >210:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10CA6 text25 CODE >211:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10CAE text25 CODE >212:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10CB6 text25 CODE >213:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10CBE text25 CODE >214:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10CC2 text25 CODE >217:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10CC8 text25 CODE >218:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10CCC text25 CODE >220:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10CCE text25 CODE >226:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10F66 text24 CODE >59:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10F68 text24 CODE >60:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10F6C text24 CODE >61:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10F70 text24 CODE >62:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10F76 text24 CODE >65:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10F8A text24 CODE >66:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10F8E text24 CODE >67:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+1063C text23 CODE >1158:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+1063C text23 CODE >1159:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10644 text23 CODE >1160:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+1066C text23 CODE >1161:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+1067A text23 CODE >1162:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+106A2 text23 CODE >1163:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+106A6 text23 CODE >1166:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+106C4 text23 CODE >1167:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+106D2 text23 CODE >1165:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+106FE text23 CODE >1169:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+106FE text23 CODE >1170:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10706 text23 CODE >1171:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10FE4 text22 CODE >247:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10FE4 text22 CODE >249:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+1100A text22 CODE >250:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+1117A text21 CODE >287:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+1117C text21 CODE >289:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+11180 text21 CODE >290:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+110DC text20 CODE >299:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+110DE text20 CODE >301:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+110F2 text20 CODE >302:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+110F8 text20 CODE >303:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/uart/src/uart1.c
+10708 text19 CODE >8:D:\SOFTWARE\MicroChip\pic\sources\c99\common\nf_fputc.c
+10708 text19 CODE >12:D:\SOFTWARE\MicroChip\pic\sources\c99\common\nf_fputc.c
+1072C text19 CODE >13:D:\SOFTWARE\MicroChip\pic\sources\c99\common\nf_fputc.c
+10732 text19 CODE >14:D:\SOFTWARE\MicroChip\pic\sources\c99\common\nf_fputc.c
+10736 text19 CODE >15:D:\SOFTWARE\MicroChip\pic\sources\c99\common\nf_fputc.c
+1078A text19 CODE >18:D:\SOFTWARE\MicroChip\pic\sources\c99\common\nf_fputc.c
+107BE text19 CODE >20:D:\SOFTWARE\MicroChip\pic\sources\c99\common\nf_fputc.c
+107D0 text19 CODE >24:D:\SOFTWARE\MicroChip\pic\sources\c99\common\nf_fputc.c
+10E06 text18 CODE >8:D:\SOFTWARE\MicroChip\pic\sources\c99\common\nf_fputs.c
+10E06 text18 CODE >13:D:\SOFTWARE\MicroChip\pic\sources\c99\common\nf_fputs.c
+10E0E text18 CODE >14:D:\SOFTWARE\MicroChip\pic\sources\c99\common\nf_fputs.c
+10E12 text18 CODE >15:D:\SOFTWARE\MicroChip\pic\sources\c99\common\nf_fputs.c
+10E24 text18 CODE >16:D:\SOFTWARE\MicroChip\pic\sources\c99\common\nf_fputs.c
+10E28 text18 CODE >14:D:\SOFTWARE\MicroChip\pic\sources\c99\common\nf_fputs.c
+10E48 text18 CODE >19:D:\SOFTWARE\MicroChip\pic\sources\c99\common\nf_fputs.c
+10876 text17 CODE >193:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10876 text17 CODE >199:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10884 text17 CODE >200:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10898 text17 CODE >205:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+108A6 text17 CODE >206:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+108AE text17 CODE >207:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+108AE text17 CODE >208:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+108B6 text17 CODE >209:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+108BA text17 CODE >210:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+108CE text17 CODE >211:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+108D2 text17 CODE >209:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+108F0 text17 CODE >216:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+108FE text17 CODE >218:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10912 text17 CODE >226:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10394 text16 CODE >1055:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10394 text16 CODE >1067:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10398 text16 CODE >1082:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+103A0 text16 CODE >1095:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+103A8 text16 CODE >1096:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+103AC text16 CODE >1097:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+103B0 text16 CODE >1107:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+103B6 text16 CODE >1108:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+103BC text16 CODE >1109:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+103CC text16 CODE >1110:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+103D0 text16 CODE >1111:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+103D4 text16 CODE >1118:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+103D8 text16 CODE >1121:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+103E8 text16 CODE >1125:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+103EA text16 CODE >1127:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+103F0 text16 CODE >1128:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10410 text16 CODE >1097:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10476 text16 CODE >1152:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10496 text16 CODE >1153:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+101D6 text15 CODE >1177:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+101D6 text15 CODE >1201:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+101FE text15 CODE >1202:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+1020C text15 CODE >1204:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10218 text15 CODE >1205:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+1021E text15 CODE >1209:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10220 text15 CODE >1210:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10224 text15 CODE >1220:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10226 text15 CODE >1221:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10234 text15 CODE >1222:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10238 text15 CODE >1243:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+1023C text15 CODE >1244:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10240 text15 CODE >1245:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+1025A text15 CODE >1245:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10264 text15 CODE >1210:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10274 text15 CODE >1256:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10290 text15 CODE >1257:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+1029E text15 CODE >1258:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+102A0 text15 CODE >1259:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+102A8 text15 CODE >1291:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+102B8 text15 CODE >1439:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+102D8 text15 CODE >1495:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10300 text15 CODE >1497:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+1031C text15 CODE >1498:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10320 text15 CODE >1586:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10338 text15 CODE >1589:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+1034A text15 CODE >1589:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10354 text15 CODE >1806:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10366 text15 CODE >1811:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10392 text15 CODE >1814:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10CD0 text14 CODE >1817:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10CD0 text14 CODE >1822:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10CD8 text14 CODE >1826:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10CDC text14 CODE >1830:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10CF8 text14 CODE >1826:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10D18 text14 CODE >1835:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+10D20 text14 CODE >1840:D:\SOFTWARE\MicroChip\pic\sources\c99\common\doprnt.c
+1100C text13 CODE >5:D:\SOFTWARE\MicroChip\pic\sources\c99\common\printf.c
+1100C text13 CODE >9:D:\SOFTWARE\MicroChip\pic\sources\c99\common\printf.c
+11014 text13 CODE >10:D:\SOFTWARE\MicroChip\pic\sources\c99\common\printf.c
+11030 text13 CODE >13:D:\SOFTWARE\MicroChip\pic\sources\c99\common\printf.c
+10000 text12 CODE >119:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10000 text12 CODE >120:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+1000C text12 CODE >123:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10014 text12 CODE >124:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10026 text12 CODE >125:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+1004E text12 CODE >126:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10060 text12 CODE >127:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10064 text12 CODE >128:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10070 text12 CODE >132:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10078 text12 CODE >133:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+1008A text12 CODE >136:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10092 text12 CODE >137:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+100A4 text12 CODE >140:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+100AC text12 CODE >141:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+100BE text12 CODE >144:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+100C6 text12 CODE >145:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+100D8 text12 CODE >149:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+100EE text12 CODE >150:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+100FA text12 CODE >151:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10102 text12 CODE >152:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10124 text12 CODE >153:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10144 text12 CODE >154:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10150 text12 CODE >158:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10166 text12 CODE >159:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10172 text12 CODE >160:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+1017A text12 CODE >161:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+1019C text12 CODE >162:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+101BC text12 CODE >163:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+101C8 text12 CODE >165:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+101D4 text12 CODE >166:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10C18 text11 CODE >168:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C18 text11 CODE >170:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C20 text11 CODE >172:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C34 text11 CODE >174:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C38 text11 CODE >177:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C40 text11 CODE >180:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C48 text11 CODE >181:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C52 text11 CODE >182:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C5A text11 CODE >183:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C62 text11 CODE >184:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C66 text11 CODE >187:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C6C text11 CODE >188:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C70 text11 CODE >190:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10C72 text11 CODE >196:D:\PROJECT\PIC18\nrf24.X\mcc_generated_files/spi/src/spi1.c
+10F34 text10 CODE >27:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10F36 text10 CODE >28:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10F48 text10 CODE >30:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10F4C text10 CODE >31:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10F60 text10 CODE >32:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10F64 text10 CODE >33:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10D72 text9 CODE >36:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10D74 text9 CODE >38:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10D7A text9 CODE >39:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10D80 text9 CODE >41:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10D8C text9 CODE >42:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10D9E text9 CODE >43:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10DB8 text9 CODE >44:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10DBC text9 CODE >45:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10992 text8 CODE >79:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10992 text8 CODE >81:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+1099C text8 CODE >82:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+109A6 text8 CODE >83:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+109B0 text8 CODE >85:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+109C2 text8 CODE >86:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+109D8 text8 CODE >87:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+109EE text8 CODE >89:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+109F8 text8 CODE >90:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10A02 text8 CODE >91:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+11172 text7 CODE >4:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+11172 text7 CODE >5:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+11178 text7 CODE >6:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+1116A text6 CODE >8:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+1116A text6 CODE >9:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+11170 text6 CODE >10:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10D22 text5 CODE >4:D:\SOFTWARE\MicroChip\pic\sources\c99\common\memcpy.c
+10D22 text5 CODE >11:D:\SOFTWARE\MicroChip\pic\sources\c99\common\memcpy.c
+10D2A text5 CODE >12:D:\SOFTWARE\MicroChip\pic\sources\c99\common\memcpy.c
+10D32 text5 CODE >13:D:\SOFTWARE\MicroChip\pic\sources\c99\common\memcpy.c
+10D36 text5 CODE >14:D:\SOFTWARE\MicroChip\pic\sources\c99\common\memcpy.c
+10D46 text5 CODE >15:D:\SOFTWARE\MicroChip\pic\sources\c99\common\memcpy.c
+10D56 text5 CODE >13:D:\SOFTWARE\MicroChip\pic\sources\c99\common\memcpy.c
+10D70 text5 CODE >18:D:\SOFTWARE\MicroChip\pic\sources\c99\common\memcpy.c
+10EC6 text4 CODE >3:D:\SOFTWARE\MicroChip\pic\sources\c99\common\memset.c
+10EC6 text4 CODE >5:D:\SOFTWARE\MicroChip\pic\sources\c99\common\memset.c
+10ECE text4 CODE >6:D:\SOFTWARE\MicroChip\pic\sources\c99\common\memset.c
+10ED2 text4 CODE >7:D:\SOFTWARE\MicroChip\pic\sources\c99\common\memset.c
+10EE2 text4 CODE >6:D:\SOFTWARE\MicroChip\pic\sources\c99\common\memset.c
+10EFC text4 CODE >10:D:\SOFTWARE\MicroChip\pic\sources\c99\common\memset.c
+10DBE text3 CODE >48:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10DBE text3 CODE >49:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10DC2 text3 CODE >50:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10DC2 text3 CODE >51:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10DC8 text3 CODE >53:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10DD4 text3 CODE >54:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10DE6 text3 CODE >55:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10E00 text3 CODE >56:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10E04 text3 CODE >57:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+1056C text2 CODE >94:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+1056C text2 CODE >96:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10588 text2 CODE >97:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+105A4 text2 CODE >99:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+105B8 text2 CODE >100:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+105BC text2 CODE >101:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+105CC text2 CODE >102:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+105D0 text2 CODE >104:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+105DA text2 CODE >105:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+105EC text2 CODE >108:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+105FC text2 CODE >109:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10608 text2 CODE >110:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+1061A text2 CODE >111:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10626 text2 CODE >112:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10630 text2 CODE >116:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+1063A text2 CODE >117:D:\PROJECT\PIC18\nrf24.X\nrf24.c
+10EFE text1 CODE >5:D:\SOFTWARE\MicroChip\pic\sources\c99\common\strlen.c
+10EFE text1 CODE >7:D:\SOFTWARE\MicroChip\pic\sources\c99\common\strlen.c
+10F06 text1 CODE >8:D:\SOFTWARE\MicroChip\pic\sources\c99\common\strlen.c
+10F0A text1 CODE >9:D:\SOFTWARE\MicroChip\pic\sources\c99\common\strlen.c
+10F0E text1 CODE >8:D:\SOFTWARE\MicroChip\pic\sources\c99\common\strlen.c
+10F26 text1 CODE >11:D:\SOFTWARE\MicroChip\pic\sources\c99\common\strlen.c
+10F32 text1 CODE >12:D:\SOFTWARE\MicroChip\pic\sources\c99\common\strlen.c
+10914 text0 CODE >42:D:\PROJECT\PIC18\nrf24.X\main.c
+10914 text0 CODE >44:D:\PROJECT\PIC18\nrf24.X\main.c
+10918 text0 CODE >50:D:\PROJECT\PIC18\nrf24.X\main.c
+1091A text0 CODE >55:D:\PROJECT\PIC18\nrf24.X\main.c
+10920 text0 CODE >56:D:\PROJECT\PIC18\nrf24.X\main.c
+1092C text0 CODE >57:D:\PROJECT\PIC18\nrf24.X\main.c
+10930 text0 CODE >59:D:\PROJECT\PIC18\nrf24.X\main.c
+10934 text0 CODE >60:D:\PROJECT\PIC18\nrf24.X\main.c
+10946 text0 CODE >62:D:\PROJECT\PIC18\nrf24.X\main.c
+10952 text0 CODE >63:D:\PROJECT\PIC18\nrf24.X\main.c
+10972 text0 CODE >64:D:\PROJECT\PIC18\nrf24.X\main.c
+10B4E cinit CODE >14977:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B4E cinit CODE >14979:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B4E cinit CODE >14982:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B4E cinit CODE >15042:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B50 cinit CODE >15043:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B52 cinit CODE >15044:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B54 cinit CODE >15045:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B56 cinit CODE >15046:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B58 cinit CODE >15047:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B5A cinit CODE >15048:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B5E cinit CODE >15049:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B62 cinit CODE >15050:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B62 cinit CODE >15051:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B64 cinit CODE >15052:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B68 cinit CODE >15053:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B6A cinit CODE >15054:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B6C cinit CODE >15055:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B6E cinit CODE >15059:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B70 cinit CODE >15060:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B72 cinit CODE >15061:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B74 cinit CODE >15062:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B76 cinit CODE >15063:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B78 cinit CODE >15064:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B7A cinit CODE >15065:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B7E cinit CODE >15066:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B82 cinit CODE >15067:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B82 cinit CODE >15068:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B84 cinit CODE >15069:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B88 cinit CODE >15070:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B8A cinit CODE >15071:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B8C cinit CODE >15072:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B8E cinit CODE >15076:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B92 cinit CODE >15077:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B94 cinit CODE >15078:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B94 cinit CODE >15079:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B96 cinit CODE >15080:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B98 cinit CODE >15081:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B9A cinit CODE >15084:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B9C cinit CODE >15085:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10B9E cinit CODE >15086:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10BA0 cinit CODE >15094:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10BA2 cinit CODE >15095:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10BA4 cinit CODE >15096:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10BA6 cinit CODE >15097:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10BA8 cinit CODE >15098:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10BAA cinit CODE >15099:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10BAC cinit CODE >15100:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10BAE cinit CODE >15106:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10BAE cinit CODE >15108:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+10BB0 cinit CODE >15109:C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_1.s
+# %SYMTAB Section
+# An enumeration of all symbols in the program.
+# The beginning of the section is indicated by %SYMTAB.
+# Each line describes a single symbol as follows:
+#    <label> <value> [-]<load-adj> <class> <space> <psect> <file-name>
+# The value and load-adj are both in unqualified hexadecimal.
+# All other numeric values are in decimal.  The load-adj is the
+# quantity one needs to add to the symbol value in order to obtain the load
+# address of the symbol.  This value may be signed. If the symbol
+# was defined in a psect then <psect> will be "-". File-name
+# is the name of the object file in which the symbol was defined.
+%SYMTAB
+_SPI1SCKPPS 26A 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SPI1SDIPPS 26B 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__end_of_SPI1_TxCompleteCallbackRegister 11132 0 CODE 0 text37 dist/default/production\nrf24.X.production.o
+SPI1_BufferRead@bufferInput 505 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__LdataBANK5 0 0 ABS 0 dataBANK5 dist/default/production\nrf24.X.production.o
+__LdataBANK6 0 0 ABS 0 dataBANK6 dist/default/production\nrf24.X.production.o
+__Lmediumconst FDC2 0 MEDIUMCONST 0 mediumconst dist/default/production\nrf24.X.production.o
+nrf_write_register_multi@data 502 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_UART1_TransmitEnable 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__Hspace_0 1119A 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__Hspace_1 620 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__Hspace_2 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__Hspace_4 60000A 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SPI1_RxCompleteCallbackRegister 11132 0 CODE 0 text38 dist/default/production\nrf24.X.production.o
+__HidataBANK5 0 0 ABS 0 idataBANK5 dist/default/production\nrf24.X.production.o
+__HidataBANK6 0 0 ABS 0 idataBANK6 dist/default/production\nrf24.X.production.o
+__Hibigdata 0 0 CODE 0 ibigdata dist/default/production\nrf24.X.production.o
+__mediumconst FDC2 0 MEDIUMCONST 0 mediumconst C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+_INT0_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__Heeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\nrf24.X.production.o
+__end_of_INTERRUPT_Initialize 10E8A 0 CODE 0 text40 dist/default/production\nrf24.X.production.o
+__L__absolute__ 0 0 ABS 0 __absolute__ dist/default/production\nrf24.X.production.o
+?_vfprintf 538 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_nrf_read_register_multi 10F66 0 CODE 0 text24 dist/default/production\nrf24.X.production.o
+__Lsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\nrf24.X.production.o
+_LATA 4BE 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_LATB 4BF 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_LATC 4C0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_LATD 4C1 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_LATE 4C2 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_LATF 4C3 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_WPUA 401 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_WPUB 409 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_WPUC 411 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_WPUD 419 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_WPUE 421 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_WPUF 429 0 ABS 0 - dist/default/production\nrf24.X.production.o
+___sp 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+_dbuf 581 0 BANK5 1 bssBANK5 dist/default/production\nrf24.X.production.o
+_main 10914 0 CODE 0 text0 dist/default/production\nrf24.X.production.o
+_prec 57B 0 BANK5 1 bssBANK5 dist/default/production\nrf24.X.production.o
+_xtoa 10394 0 CODE 0 text16 dist/default/production\nrf24.X.production.o
+___stack_hi 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+___stack_lo 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+read_prec_or_width@c 507 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+read_prec_or_width@n 508 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+pad@i 51A 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+pad@p 517 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+start 1A 0 CODE 0 init C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+__end_of_nrf_read_register_multi 10F90 0 CODE 0 text24 dist/default/production\nrf24.X.production.o
+__HbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\nrf24.X.production.o
+__end_of_SPI1_Initialize 10EC6 0 CODE 0 text36 dist/default/production\nrf24.X.production.o
+nrf_write_payload@data 502 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+INT2_SetInterruptHandler@InterruptHandler 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+pad@fp 513 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_INT2_SetInterruptHandler 11140 0 CODE 0 text41 dist/default/production\nrf24.X.production.o
+nrf_init@F17915 5E8 0 BANK5 1 dataBANK5 dist/default/production\nrf24.X.production.o
+_UART1_OverrunErrorCallbackRegister 11078 0 CODE 0 text34 dist/default/production\nrf24.X.production.o
+__LidataBANK5 0 0 ABS 0 idataBANK5 dist/default/production\nrf24.X.production.o
+__LidataBANK6 0 0 ABS 0 idataBANK6 dist/default/production\nrf24.X.production.o
+main@data_to_send 5C2 0 BANK5 1 cstackBANK5 dist/default/production\nrf24.X.production.o
+__Hpowerup 0 0 CODE 0 powerup dist/default/production\nrf24.X.production.o
+__end_of_spi1_configuration FE3F 0 MEDIUMCONST 0 mediumconst dist/default/production\nrf24.X.production.o
+_SPI1_Close 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+SPI1_ByteWrite@byteData 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__end_of_vfpfcnvrt 10394 0 CODE 0 text15 dist/default/production\nrf24.X.production.o
+SPI1_BufferWrite@bufferInput 505 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_nrf_send_data 1056C 0 CODE 0 text2 dist/default/production\nrf24.X.production.o
+__accesstop 560 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+intlevel0 0 0 CODE 0 text C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+intlevel1 0 0 CODE 0 text C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+intlevel2 0 0 CODE 0 text C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+intlevel3 0 0 CODE 0 text C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+__LbssCOMRAM 0 0 ABS 0 bssCOMRAM dist/default/production\nrf24.X.production.o
+__end_of_SPI1_BufferRead 10CD0 0 CODE 0 text25 dist/default/production\nrf24.X.production.o
+__LnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\nrf24.X.production.o
+xtoa@c 526 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+xtoa@d 51E 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+xtoa@i 527 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+xtoa@p 523 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+xtoa@w 524 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__Hifardata 0 0 CODE 0 ifardata dist/default/production\nrf24.X.production.o
+_UART1_IsRxReady 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__Hclrtext 0 0 ABS 0 clrtext dist/default/production\nrf24.X.production.o
+_vfpfcnvrt 101D6 0 CODE 0 text15 dist/default/production\nrf24.X.production.o
+__end_of_INT1_SetInterruptHandler 1115C 0 CODE 0 text42 dist/default/production\nrf24.X.production.o
+_U1ERRIE 2B3 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_U1ERRIR 2B2 0 ABS 0 - dist/default/production\nrf24.X.production.o
+ivt0x8_base 8 0 CODE 0 ivt0x8 dist/default/production\nrf24.X.production.o
+_U1RXCHK 2A2 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_U1RXPPS 272 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_U1TXCHK 2A4 0 ABS 0 - dist/default/production\nrf24.X.production.o
+xtoa@fp 51C 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_SPI1CON0bits 84 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SPI1_Initialize 10E8A 0 CODE 0 text36 dist/default/production\nrf24.X.production.o
+_ACTCON AC 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_spi1_configuration FE35 0 MEDIUMCONST 0 mediumconst dist/default/production\nrf24.X.production.o
+_ANSELA 400 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_ANSELB 408 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_ANSELC 410 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_ANSELD 418 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_ANSELE 420 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_ANSELF 428 0 ABS 0 - dist/default/production\nrf24.X.production.o
+nrf_send_data@length 548 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+___inthi_sp 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+___intlo_sp 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+_UART1_IsTxDone 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_UART1_ParityErrorCallbackRegister 11056 0 CODE 0 text33 dist/default/production\nrf24.X.production.o
+_nrf_check_configuration 10000 0 CODE 0 text12 dist/default/production\nrf24.X.production.o
+__end_of_nrf_write_register_multi 10DBE 0 CODE 0 text9 dist/default/production\nrf24.X.production.o
+__end_of_INTERRUPT_InterruptManager 10AE4 0 CODE 0 text46 dist/default/production\nrf24.X.production.o
+_UART1_FramingErrorCallbackRegister 1109A 0 CODE 0 text35 dist/default/production\nrf24.X.production.o
+__end_of_nrf_check_configuration 101D6 0 CODE 0 text12 dist/default/production\nrf24.X.production.o
+UART1_FramingErrorCallbackRegister@callbackHandler 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+SPI1_TxCompleteCallbackRegister@txCompleteCallbackHandler 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__Lintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\nrf24.X.production.o
+_UART1_AutoBaudQuery 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__Hmediumconst 10000 0 MEDIUMCONST 0 mediumconst dist/default/production\nrf24.X.production.o
+nrf_write_register@value 507 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+?_printf 540 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__LnvBANK5 0 0 ABS 0 nvBANK5 dist/default/production\nrf24.X.production.o
+__end_of_SPI1_Transmit_ISR 10C18 0 CODE 0 text47 dist/default/production\nrf24.X.production.o
+_SPI1_BufferRead 10C74 0 CODE 0 text25 dist/default/production\nrf24.X.production.o
+_U1FIFObits 2B0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SPI1STATUSbits 87 0 ABS 0 - dist/default/production\nrf24.X.production.o
+nrf_send_data@status 5C1 0 BANK5 1 cstackBANK5 dist/default/production\nrf24.X.production.o
+_INLVLA 404 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_INLVLB 40C 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_INLVLC 414 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_INLVLD 41C 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_INLVLE 424 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_INLVLF 42C 0 ABS 0 - dist/default/production\nrf24.X.production.o
+?_strlen 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+nrf_write_payload@i 506 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+nrf_write_payload@length 504 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_UART1_Write 1117A 0 CODE 0 text21 dist/default/production\nrf24.X.production.o
+nrf_read_register_multi@reg 50D 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_SPI1_BufferExchange 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+memcpy@tmp 50B 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_INTCON0bits 4D6 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SPI1_IsRxReady 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_PIN_MANAGER_Initialize 107D2 0 CODE 0 text39 dist/default/production\nrf24.X.production.o
+nrf_check_configuration@rf_setup 552 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+nrf_check_configuration@en_aa 551 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+start_initialization 10B4E 0 CODE 0 cinit dist/default/production\nrf24.X.production.o
+nrf_check_configuration@rf_ch 553 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+nrf_write_register@reg 508 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+nrf_write_register_multi@i 508 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_ODCONA 402 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_ODCONB 40A 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_ODCONC 412 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_ODCOND 41A 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_ODCONE 422 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_ODCONF 42A 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_OSCFRQ B1 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__end_of_UART1_OverrunErrorCallbackRegister 1109A 0 CODE 0 text34 dist/default/production\nrf24.X.production.o
+__HnvFARRAM 0 0 FARRAM 0 nvFARRAM dist/default/production\nrf24.X.production.o
+_UART1_Initialize 10A04 0 CODE 0 text32 dist/default/production\nrf24.X.production.o
+_TRISCbits 4C8 0 ABS 0 - dist/default/production\nrf24.X.production.o
+___rparam_used 1 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_RB1I2C 289 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_RB2I2C 288 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_RC3I2C 287 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_RC3PPS 214 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_RC4I2C 286 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_RC5PPS 216 0 ABS 0 - dist/default/production\nrf24.X.production.o
+nrf_read_register_multi@tx_data 50E 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_RF0PPS 229 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__end_of_memcpy 10D72 0 CODE 0 text5 dist/default/production\nrf24.X.production.o
+__end_of_memset 10EFE 0 CODE 0 text4 dist/default/production\nrf24.X.production.o
+__end_of_SYSTEM_Initialize 11110 0 CODE 0 text31 dist/default/production\nrf24.X.production.o
+__pcstackBANK5 5A1 0 BANK5 1 cstackBANK5 dist/default/production\nrf24.X.production.o
+_U1CON0bits 2AB 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_U1CON1bits 2AC 0 ABS 0 - dist/default/production\nrf24.X.production.o
+nrf_read_register_multi@buffer 50B 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_U1BRGH 2AF 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_U1BRGL 2AE 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_U1CON0 2AB 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_U1CON1 2AC 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_U1CON2 2AD 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_U1FIFO 2B0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+nrf_check_configuration@config 559 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_UART1_AutoBaudSet 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_INT2_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__end_of_printf 11032 0 CODE 0 text13 dist/default/production\nrf24.X.production.o
+_SPI1_TxCompleteCallbackRegister 11124 0 CODE 0 text37 dist/default/production\nrf24.X.production.o
+isa$xinst 0 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+nrf_read_register@reg 502 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+fputc@fp 505 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+fputs@fp 50E 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__end_of_nrf_send_data 1063C 0 CODE 0 text2 dist/default/production\nrf24.X.production.o
+vfpfcnvrt@done 535 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_SPI1_BufferWrite 10C18 0 CODE 0 text11 dist/default/production\nrf24.X.production.o
+__Hbank5 0 0 ABS 0 bank5 dist/default/production\nrf24.X.production.o
+__Hbank6 0 0 ABS 0 bank6 dist/default/production\nrf24.X.production.o
+__Hbank7 0 0 ABS 0 bank7 dist/default/production\nrf24.X.production.o
+__Hbank8 0 0 ABS 0 bank8 dist/default/production\nrf24.X.production.o
+__Hbank9 0 0 ABS 0 bank9 dist/default/production\nrf24.X.production.o
+__Hcinit 0 0 ABS 0 cinit dist/default/production\nrf24.X.production.o
+__Hconst 0 0 CONST 0 const dist/default/production\nrf24.X.production.o
+__end_of_strlen 10F34 0 CODE 0 text1 dist/default/production\nrf24.X.production.o
+__Hidata 0 0 CODE 0 idata dist/default/production\nrf24.X.production.o
+__Hidloc 0 0 ABS 0 idloc dist/default/production\nrf24.X.production.o
+__Hnvbit 0 0 COMRAM 1 nvbit dist/default/production\nrf24.X.production.o
+__Hparam 0 0 COMRAM 1 rparam dist/default/production\nrf24.X.production.o
+__Hrdata 0 0 COMRAM 1 rdata dist/default/production\nrf24.X.production.o
+__Hstack 0 0 STACK 2 stack dist/default/production\nrf24.X.production.o
+__Htext0 0 0 ABS 0 text0 dist/default/production\nrf24.X.production.o
+__Htext1 0 0 ABS 0 text1 dist/default/production\nrf24.X.production.o
+__Htext2 0 0 ABS 0 text2 dist/default/production\nrf24.X.production.o
+__Htext3 0 0 ABS 0 text3 dist/default/production\nrf24.X.production.o
+__Htext4 0 0 ABS 0 text4 dist/default/production\nrf24.X.production.o
+__Htext5 0 0 ABS 0 text5 dist/default/production\nrf24.X.production.o
+__Htext6 0 0 ABS 0 text6 dist/default/production\nrf24.X.production.o
+__Htext7 0 0 ABS 0 text7 dist/default/production\nrf24.X.production.o
+__Htext8 0 0 ABS 0 text8 dist/default/production\nrf24.X.production.o
+__Htext9 0 0 ABS 0 text9 dist/default/production\nrf24.X.production.o
+__Hbank10 0 0 ABS 0 bank10 dist/default/production\nrf24.X.production.o
+__Hbank11 0 0 ABS 0 bank11 dist/default/production\nrf24.X.production.o
+__Hbank12 0 0 ABS 0 bank12 dist/default/production\nrf24.X.production.o
+__Hbank13 0 0 ABS 0 bank13 dist/default/production\nrf24.X.production.o
+__Hbank14 0 0 ABS 0 bank14 dist/default/production\nrf24.X.production.o
+__Hbank15 0 0 ABS 0 bank15 dist/default/production\nrf24.X.production.o
+__Hbank16 0 0 ABS 0 bank16 dist/default/production\nrf24.X.production.o
+__Hbank17 0 0 ABS 0 bank17 dist/default/production\nrf24.X.production.o
+__Hbank18 0 0 ABS 0 bank18 dist/default/production\nrf24.X.production.o
+__Hbank19 0 0 ABS 0 bank19 dist/default/production\nrf24.X.production.o
+__Hbank20 0 0 ABS 0 bank20 dist/default/production\nrf24.X.production.o
+__Hbank21 0 0 ABS 0 bank21 dist/default/production\nrf24.X.production.o
+__Hbank22 0 0 ABS 0 bank22 dist/default/production\nrf24.X.production.o
+__Hbank23 0 0 ABS 0 bank23 dist/default/production\nrf24.X.production.o
+__Hbank24 0 0 ABS 0 bank24 dist/default/production\nrf24.X.production.o
+__Hbank25 0 0 ABS 0 bank25 dist/default/production\nrf24.X.production.o
+__Hbank26 0 0 ABS 0 bank26 dist/default/production\nrf24.X.production.o
+__Hbank27 0 0 ABS 0 bank27 dist/default/production\nrf24.X.production.o
+__Hbank28 0 0 ABS 0 bank28 dist/default/production\nrf24.X.production.o
+__Hbank29 0 0 ABS 0 bank29 dist/default/production\nrf24.X.production.o
+__Hbank30 0 0 ABS 0 bank30 dist/default/production\nrf24.X.production.o
+__Hbank31 0 0 ABS 0 bank31 dist/default/production\nrf24.X.production.o
+__Hbank32 0 0 ABS 0 bank32 dist/default/production\nrf24.X.production.o
+__Hbank33 0 0 ABS 0 bank33 dist/default/production\nrf24.X.production.o
+__Hbank34 0 0 ABS 0 bank34 dist/default/production\nrf24.X.production.o
+__Hbank35 0 0 ABS 0 bank35 dist/default/production\nrf24.X.production.o
+__Hbank36 0 0 ABS 0 bank36 dist/default/production\nrf24.X.production.o
+?_read_prec_or_width 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__Hbigbss 0 0 BIGRAM 1 bigbss dist/default/production\nrf24.X.production.o
+__Hbigram 0 0 ABS 0 bigram dist/default/production\nrf24.X.production.o
+__Hbigsfr 0 0 ABS 0 bigsfr dist/default/production\nrf24.X.production.o
+__smallconst 0 0 SMALLCONST 0 smallconst C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+nrf_check_configuration@i_1475 557 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+main@F17884 600 0 BANK6 1 dataBANK6 dist/default/production\nrf24.X.production.o
+__end_of_UART1_ParityErrorCallbackRegister 11078 0 CODE 0 text33 dist/default/production\nrf24.X.production.o
+SPI1_BufferWrite@bufferData 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+SPI1_BufferWrite@bufferSize 503 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__Hcomram 0 0 ABS 0 comram dist/default/production\nrf24.X.production.o
+__Hconfig 30000A 0 CONFIG 4 config dist/default/production\nrf24.X.production.o
+_SPI1_Transmit_ISR 10BB4 0 CODE 0 text47 dist/default/production\nrf24.X.production.o
+__Lbank5 0 0 ABS 0 bank5 dist/default/production\nrf24.X.production.o
+__Lbank6 0 0 ABS 0 bank6 dist/default/production\nrf24.X.production.o
+__Lbank7 0 0 ABS 0 bank7 dist/default/production\nrf24.X.production.o
+__Lbank8 0 0 ABS 0 bank8 dist/default/production\nrf24.X.production.o
+__Lbank9 0 0 ABS 0 bank9 dist/default/production\nrf24.X.production.o
+__Lcinit 0 0 ABS 0 cinit dist/default/production\nrf24.X.production.o
+__Lconst 0 0 CONST 0 const dist/default/production\nrf24.X.production.o
+_SPI1_Receive_ISR 10AE4 0 CODE 0 text48 dist/default/production\nrf24.X.production.o
+__Lidata 0 0 CODE 0 idata dist/default/production\nrf24.X.production.o
+__Lidloc 0 0 ABS 0 idloc dist/default/production\nrf24.X.production.o
+nrf_check_configuration@rx_address 547 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__Lnvbit 0 0 COMRAM 1 nvbit dist/default/production\nrf24.X.production.o
+INT1_SetInterruptHandler@InterruptHandler 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__Lparam 0 0 COMRAM 1 rparam dist/default/production\nrf24.X.production.o
+__Lrdata 0 0 COMRAM 1 rdata dist/default/production\nrf24.X.production.o
+nrf_read_register_multi@length 509 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__end_of_UART1_FramingErrorCallbackRegister 110BC 0 CODE 0 text35 dist/default/production\nrf24.X.production.o
+__Lstack 0 0 STACK 2 stack dist/default/production\nrf24.X.production.o
+__Ltext0 0 0 ABS 0 text0 dist/default/production\nrf24.X.production.o
+__Ltext1 0 0 ABS 0 text1 dist/default/production\nrf24.X.production.o
+__Ltext2 0 0 ABS 0 text2 dist/default/production\nrf24.X.production.o
+__Ltext3 0 0 ABS 0 text3 dist/default/production\nrf24.X.production.o
+__Ltext4 0 0 ABS 0 text4 dist/default/production\nrf24.X.production.o
+__Ltext5 0 0 ABS 0 text5 dist/default/production\nrf24.X.production.o
+__Ltext6 0 0 ABS 0 text6 dist/default/production\nrf24.X.production.o
+__Ltext7 0 0 ABS 0 text7 dist/default/production\nrf24.X.production.o
+__Ltext8 0 0 ABS 0 text8 dist/default/production\nrf24.X.production.o
+__Ltext9 0 0 ABS 0 text9 dist/default/production\nrf24.X.production.o
+_INT0_SetInterruptHandler 1115C 0 CODE 0 text43 dist/default/production\nrf24.X.production.o
+__Hfarbss 0 0 FARRAM 0 farbss dist/default/production\nrf24.X.production.o
+SPI1_ByteRead@returnValue 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+UART1_OverrunErrorCallbackRegister@callbackHandler 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_spi1_descriptor 560 0 BANK5 1 bssBANK5 dist/default/production\nrf24.X.production.o
+memcpy@d1 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+memcpy@s1 503 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_INTERRUPT_Initialize 10E4A 0 CODE 0 text40 dist/default/production\nrf24.X.production.o
+__Habs1 0 0 ABS 0 abs1 dist/default/production\nrf24.X.production.o
+__Hdata 0 0 ABS 0 data dist/default/production\nrf24.X.production.o
+__Hheap 0 0 HEAP 7 heap dist/default/production\nrf24.X.production.o
+__Hinit 1E 0 CODE 0 init dist/default/production\nrf24.X.production.o
+__Hrbit 0 0 COMRAM 1 rbit dist/default/production\nrf24.X.production.o
+__Hrbss 0 0 COMRAM 1 rbss dist/default/production\nrf24.X.production.o
+__Htemp 0 0 COMRAM 1 temp dist/default/production\nrf24.X.production.o
+__Htext 0 0 ABS 0 text dist/default/production\nrf24.X.production.o
+__Labs1 0 0 ABS 0 abs1 dist/default/production\nrf24.X.production.o
+__Ldata 0 0 ABS 0 data dist/default/production\nrf24.X.production.o
+__Lheap 0 0 HEAP 7 heap dist/default/production\nrf24.X.production.o
+__Linit 1A 0 CODE 0 init dist/default/production\nrf24.X.production.o
+__Lrbit 0 0 COMRAM 1 rbit dist/default/production\nrf24.X.production.o
+__Lrbss 0 0 COMRAM 1 rbss dist/default/production\nrf24.X.production.o
+__Ltemp 0 0 COMRAM 1 temp dist/default/production\nrf24.X.production.o
+__Ltext 0 0 ABS 0 text dist/default/production\nrf24.X.production.o
+memcpy@d 507 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+memcpy@n 505 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+memcpy@s 509 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__pnvBANK5 5E2 0 BANK5 1 nvBANK5 dist/default/production\nrf24.X.production.o
+memset@dest 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+memset@c 503 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+memset@n 505 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+memset@p 507 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__LcstackBANK5 0 0 ABS 0 cstackBANK5 dist/default/production\nrf24.X.production.o
+_SPI1_ByteRead 10FBA 0 CODE 0 text28 dist/default/production\nrf24.X.production.o
+nrf_check_configuration@tx_address 54C 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__HcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\nrf24.X.production.o
+SPI1_RxCompleteCallbackRegister@rxCompleteCallbackHandler 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_UART1_ErrorGet 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__Hirdata 0 0 CODE 0 irdata dist/default/production\nrf24.X.production.o
+_CEH 11172 0 CODE 0 text7 dist/default/production\nrf24.X.production.o
+_CEL 1116A 0 CODE 0 text6 dist/default/production\nrf24.X.production.o
+_CSH 1118A 0 CODE 0 text30 dist/default/production\nrf24.X.production.o
+_CSL 11182 0 CODE 0 text29 dist/default/production\nrf24.X.production.o
+__S0 1119A 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__S1 620 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__S4 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__S5 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_pad 10876 0 CODE 0 text17 dist/default/production\nrf24.X.production.o
+__Hivt0x8 1A 0 CODE 0 ivt0x8 dist/default/production\nrf24.X.production.o
+_CLOCK_Initialize 11110 0 CODE 0 text44 dist/default/production\nrf24.X.production.o
+nrf_write_register_multi@length 504 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__end_of_INT2_SetInterruptHandler 1114E 0 CODE 0 text41 dist/default/production\nrf24.X.production.o
+IVTBASEH 45E 0 ABS 0 - dist/default/production\nrf24.X.production.o
+IVTBASEL 45D 0 ABS 0 - dist/default/production\nrf24.X.production.o
+IVTBASEU 45F 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_uart1RxLastError 57F 0 BANK5 1 bssBANK5 dist/default/production\nrf24.X.production.o
+__end_of_UART1_Initialize 10A76 0 CODE 0 text32 dist/default/production\nrf24.X.production.o
+_UART1_DefaultFramingErrorCallback 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SPI1BAUD 89 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SPI1CON0 84 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SPI1CON1 85 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SPI1CON2 86 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SPI1_ISR 11198 0 CODE 0 text49 dist/default/production\nrf24.X.production.o
+SPI1_Open@spiConfigIndex 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__pivt0x8 8 0 CODE 0 ivt0x8 dist/default/production\nrf24.X.production.o
+nrf_check_configuration@status 554 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+nrf_read_register@tx_data 503 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__Lbigdata 0 0 BIGRAM 1 bigdata dist/default/production\nrf24.X.production.o
+__Hnvrram 0 0 COMRAM 1 nvrram dist/default/production\nrf24.X.production.o
+__end_of_SPI1_ISR 1119A 0 CODE 0 text49 dist/default/production\nrf24.X.production.o
+_SYSTEM_Initialize 110FA 0 CODE 0 text31 dist/default/production\nrf24.X.production.o
+__end_of_CEH 1117A 0 CODE 0 text7 dist/default/production\nrf24.X.production.o
+__end_of_CEL 11172 0 CODE 0 text6 dist/default/production\nrf24.X.production.o
+__end_of_CSH 11192 0 CODE 0 text30 dist/default/production\nrf24.X.production.o
+__end_of_CSL 1118A 0 CODE 0 text29 dist/default/production\nrf24.X.production.o
+__end_of_pad 10914 0 CODE 0 text17 dist/default/production\nrf24.X.production.o
+_UART1_Deinitialize 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_UART1_DefaultOverrunErrorCallback 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__HnvBANK5 0 0 ABS 0 nvBANK5 dist/default/production\nrf24.X.production.o
+__Hramtop 2600 0 RAM 0 ramtop dist/default/production\nrf24.X.production.o
+strlen@a 503 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+strlen@s 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__Hrparam 0 0 COMRAM 1 rparam dist/default/production\nrf24.X.production.o
+__end_of_nrf_write_payload 10E06 0 CODE 0 text3 dist/default/production\nrf24.X.production.o
+__pdataBANK5 5E8 0 BANK5 1 dataBANK5 dist/default/production\nrf24.X.production.o
+__pdataBANK6 600 0 BANK6 1 dataBANK6 dist/default/production\nrf24.X.production.o
+__activetblptr 3 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__Hstruct 0 0 COMRAM 1 struct dist/default/production\nrf24.X.production.o
+__LbssBANK5 0 0 ABS 0 bssBANK5 dist/default/production\nrf24.X.production.o
+__Htext10 0 0 ABS 0 text10 dist/default/production\nrf24.X.production.o
+__Htext11 0 0 ABS 0 text11 dist/default/production\nrf24.X.production.o
+__Htext12 0 0 ABS 0 text12 dist/default/production\nrf24.X.production.o
+__Htext13 0 0 ABS 0 text13 dist/default/production\nrf24.X.production.o
+__Htext14 0 0 ABS 0 text14 dist/default/production\nrf24.X.production.o
+__Htext15 0 0 ABS 0 text15 dist/default/production\nrf24.X.production.o
+__Htext16 0 0 ABS 0 text16 dist/default/production\nrf24.X.production.o
+__Htext17 0 0 ABS 0 text17 dist/default/production\nrf24.X.production.o
+__Htext18 0 0 ABS 0 text18 dist/default/production\nrf24.X.production.o
+__Htext19 0 0 ABS 0 text19 dist/default/production\nrf24.X.production.o
+__Htext20 0 0 ABS 0 text20 dist/default/production\nrf24.X.production.o
+__Htext21 0 0 ABS 0 text21 dist/default/production\nrf24.X.production.o
+__Htext22 0 0 ABS 0 text22 dist/default/production\nrf24.X.production.o
+__Htext23 0 0 ABS 0 text23 dist/default/production\nrf24.X.production.o
+__Htext24 0 0 ABS 0 text24 dist/default/production\nrf24.X.production.o
+__Htext25 0 0 ABS 0 text25 dist/default/production\nrf24.X.production.o
+__Htext26 0 0 ABS 0 text26 dist/default/production\nrf24.X.production.o
+__Htext27 0 0 ABS 0 text27 dist/default/production\nrf24.X.production.o
+__Htext28 0 0 ABS 0 text28 dist/default/production\nrf24.X.production.o
+__Htext29 0 0 ABS 0 text29 dist/default/production\nrf24.X.production.o
+__Htext30 0 0 ABS 0 text30 dist/default/production\nrf24.X.production.o
+__Htext31 0 0 ABS 0 text31 dist/default/production\nrf24.X.production.o
+__Htext32 0 0 ABS 0 text32 dist/default/production\nrf24.X.production.o
+__Htext33 0 0 ABS 0 text33 dist/default/production\nrf24.X.production.o
+__Htext34 0 0 ABS 0 text34 dist/default/production\nrf24.X.production.o
+__Htext35 0 0 ABS 0 text35 dist/default/production\nrf24.X.production.o
+__Htext36 0 0 ABS 0 text36 dist/default/production\nrf24.X.production.o
+__Htext37 0 0 ABS 0 text37 dist/default/production\nrf24.X.production.o
+__Htext38 0 0 ABS 0 text38 dist/default/production\nrf24.X.production.o
+__Htext39 0 0 ABS 0 text39 dist/default/production\nrf24.X.production.o
+__Htext40 0 0 ABS 0 text40 dist/default/production\nrf24.X.production.o
+__Htext41 0 0 ABS 0 text41 dist/default/production\nrf24.X.production.o
+__Htext42 0 0 ABS 0 text42 dist/default/production\nrf24.X.production.o
+__Htext43 0 0 ABS 0 text43 dist/default/production\nrf24.X.production.o
+__Htext44 0 0 ABS 0 text44 dist/default/production\nrf24.X.production.o
+__Htext45 0 0 ABS 0 text45 dist/default/production\nrf24.X.production.o
+__Htext46 0 0 ABS 0 text46 dist/default/production\nrf24.X.production.o
+__Htext47 0 0 ABS 0 text47 dist/default/production\nrf24.X.production.o
+__Htext48 0 0 ABS 0 text48 dist/default/production\nrf24.X.production.o
+__Htext49 0 0 ABS 0 text49 dist/default/production\nrf24.X.production.o
+__end_of_SPI1_BufferWrite 10C74 0 CODE 0 text11 dist/default/production\nrf24.X.production.o
+vfpfcnvrt@fmt 52B 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_INTERRUPT_InterruptManager 10A76 0 CODE 0 text46 dist/default/production\nrf24.X.production.o
+_UART1_IsTxReady$1357 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_PIE3bits 4A1 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_PIR10bits 4B8 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SPI1_Deinitialize 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_memcpy 10D22 0 CODE 0 text5 dist/default/production\nrf24.X.production.o
+_memset 10EC6 0 CODE 0 text4 dist/default/production\nrf24.X.production.o
+pad@buf 515 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__ptext10 10F34 0 CODE 0 text10 dist/default/production\nrf24.X.production.o
+__ptext11 10C18 0 CODE 0 text11 dist/default/production\nrf24.X.production.o
+__ptext12 10000 0 CODE 0 text12 dist/default/production\nrf24.X.production.o
+__ptext13 1100C 0 CODE 0 text13 dist/default/production\nrf24.X.production.o
+__ptext14 10CD0 0 CODE 0 text14 dist/default/production\nrf24.X.production.o
+__ptext15 101D6 0 CODE 0 text15 dist/default/production\nrf24.X.production.o
+__ptext16 10394 0 CODE 0 text16 dist/default/production\nrf24.X.production.o
+__ptext17 10876 0 CODE 0 text17 dist/default/production\nrf24.X.production.o
+__ptext18 10E06 0 CODE 0 text18 dist/default/production\nrf24.X.production.o
+__ptext19 10708 0 CODE 0 text19 dist/default/production\nrf24.X.production.o
+__ptext20 110DC 0 CODE 0 text20 dist/default/production\nrf24.X.production.o
+__ptext21 1117A 0 CODE 0 text21 dist/default/production\nrf24.X.production.o
+__ptext22 10FE4 0 CODE 0 text22 dist/default/production\nrf24.X.production.o
+__ptext23 1063C 0 CODE 0 text23 dist/default/production\nrf24.X.production.o
+__ptext24 10F66 0 CODE 0 text24 dist/default/production\nrf24.X.production.o
+__ptext25 10C74 0 CODE 0 text25 dist/default/production\nrf24.X.production.o
+__ptext26 11032 0 CODE 0 text26 dist/default/production\nrf24.X.production.o
+__ptext27 10F90 0 CODE 0 text27 dist/default/production\nrf24.X.production.o
+__ptext28 10FBA 0 CODE 0 text28 dist/default/production\nrf24.X.production.o
+__ptext29 11182 0 CODE 0 text29 dist/default/production\nrf24.X.production.o
+__ptext30 1118A 0 CODE 0 text30 dist/default/production\nrf24.X.production.o
+__ptext31 110FA 0 CODE 0 text31 dist/default/production\nrf24.X.production.o
+__ptext32 10A04 0 CODE 0 text32 dist/default/production\nrf24.X.production.o
+__ptext33 11056 0 CODE 0 text33 dist/default/production\nrf24.X.production.o
+__ptext34 11078 0 CODE 0 text34 dist/default/production\nrf24.X.production.o
+__ptext35 1109A 0 CODE 0 text35 dist/default/production\nrf24.X.production.o
+__ptext36 10E8A 0 CODE 0 text36 dist/default/production\nrf24.X.production.o
+__ptext37 11124 0 CODE 0 text37 dist/default/production\nrf24.X.production.o
+__ptext38 11132 0 CODE 0 text38 dist/default/production\nrf24.X.production.o
+__ptext39 107D2 0 CODE 0 text39 dist/default/production\nrf24.X.production.o
+__ptext40 10E4A 0 CODE 0 text40 dist/default/production\nrf24.X.production.o
+__ptext41 11140 0 CODE 0 text41 dist/default/production\nrf24.X.production.o
+__ptext42 1114E 0 CODE 0 text42 dist/default/production\nrf24.X.production.o
+__ptext43 1115C 0 CODE 0 text43 dist/default/production\nrf24.X.production.o
+__ptext44 11110 0 CODE 0 text44 dist/default/production\nrf24.X.production.o
+__ptext45 10498 0 CODE 0 text45 dist/default/production\nrf24.X.production.o
+__ptext46 10A76 0 CODE 0 text46 dist/default/production\nrf24.X.production.o
+__ptext47 10BB4 0 CODE 0 text47 dist/default/production\nrf24.X.production.o
+__ptext48 10AE4 0 CODE 0 text48 dist/default/production\nrf24.X.production.o
+__ptext49 11198 0 CODE 0 text49 dist/default/production\nrf24.X.production.o
+__end_of_PIN_MANAGER_Initialize 10876 0 CODE 0 text39 dist/default/production\nrf24.X.production.o
+__Lbank10 0 0 ABS 0 bank10 dist/default/production\nrf24.X.production.o
+__Lbank11 0 0 ABS 0 bank11 dist/default/production\nrf24.X.production.o
+__Lbank12 0 0 ABS 0 bank12 dist/default/production\nrf24.X.production.o
+__Lbank13 0 0 ABS 0 bank13 dist/default/production\nrf24.X.production.o
+__Lbank14 0 0 ABS 0 bank14 dist/default/production\nrf24.X.production.o
+__Lbank15 0 0 ABS 0 bank15 dist/default/production\nrf24.X.production.o
+__Lbank16 0 0 ABS 0 bank16 dist/default/production\nrf24.X.production.o
+__Lbank17 0 0 ABS 0 bank17 dist/default/production\nrf24.X.production.o
+__Lbank18 0 0 ABS 0 bank18 dist/default/production\nrf24.X.production.o
+__Lbank19 0 0 ABS 0 bank19 dist/default/production\nrf24.X.production.o
+__Lbank20 0 0 ABS 0 bank20 dist/default/production\nrf24.X.production.o
+__Lbank21 0 0 ABS 0 bank21 dist/default/production\nrf24.X.production.o
+__Lbank22 0 0 ABS 0 bank22 dist/default/production\nrf24.X.production.o
+__Lbank23 0 0 ABS 0 bank23 dist/default/production\nrf24.X.production.o
+__Lbank24 0 0 ABS 0 bank24 dist/default/production\nrf24.X.production.o
+__Lbank25 0 0 ABS 0 bank25 dist/default/production\nrf24.X.production.o
+__Lbank26 0 0 ABS 0 bank26 dist/default/production\nrf24.X.production.o
+__Lbank27 0 0 ABS 0 bank27 dist/default/production\nrf24.X.production.o
+__Lbank28 0 0 ABS 0 bank28 dist/default/production\nrf24.X.production.o
+__Lbank29 0 0 ABS 0 bank29 dist/default/production\nrf24.X.production.o
+__Lbank30 0 0 ABS 0 bank30 dist/default/production\nrf24.X.production.o
+__Lbank31 0 0 ABS 0 bank31 dist/default/production\nrf24.X.production.o
+__Lbank32 0 0 ABS 0 bank32 dist/default/production\nrf24.X.production.o
+__Lbank33 0 0 ABS 0 bank33 dist/default/production\nrf24.X.production.o
+__Lbank34 0 0 ABS 0 bank34 dist/default/production\nrf24.X.production.o
+__Lbank35 0 0 ABS 0 bank35 dist/default/production\nrf24.X.production.o
+__Lbank36 0 0 ABS 0 bank36 dist/default/production\nrf24.X.production.o
+__end_of_SPI1_Receive_ISR 10B4E 0 CODE 0 text48 dist/default/production\nrf24.X.production.o
+__Lbigbss 0 0 BIGRAM 1 bigbss dist/default/production\nrf24.X.production.o
+__Lbigram 0 0 ABS 0 bigram dist/default/production\nrf24.X.production.o
+__Lbigsfr 0 0 ABS 0 bigsfr dist/default/production\nrf24.X.production.o
+_INT2_InterruptHandler 572 0 BANK5 1 bssBANK5 dist/default/production\nrf24.X.production.o
+__Lcomram 0 0 ABS 0 comram dist/default/production\nrf24.X.production.o
+__Lconfig 0 0 CONFIG 4 config dist/default/production\nrf24.X.production.o
+_printf 1100C 0 CODE 0 text13 dist/default/production\nrf24.X.production.o
+__end_of_SPI1_RxCompleteCallbackRegister 11140 0 CODE 0 text38 dist/default/production\nrf24.X.production.o
+_SPI1_ByteExchange 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__end_of_read_prec_or_width 10708 0 CODE 0 text23 dist/default/production\nrf24.X.production.o
+__end_of_UART1_IsTxReady 1100C 0 CODE 0 text22 dist/default/production\nrf24.X.production.o
+__Lfarbss 0 0 FARRAM 0 farbss dist/default/production\nrf24.X.production.o
+___inthi_stack_hi 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+___inthi_stack_lo 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+__end_of_nrf_read_register 11056 0 CODE 0 text26 dist/default/production\nrf24.X.production.o
+_strlen 10EFE 0 CODE 0 text1 dist/default/production\nrf24.X.production.o
+__end_of_nrf_write_register 10F66 0 CODE 0 text10 dist/default/production\nrf24.X.production.o
+__Lfardata 0 0 FARRAM 0 fardata dist/default/production\nrf24.X.production.o
+isa$std 1 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+__end_of_CLOCK_Initialize 11124 0 CODE 0 text44 dist/default/production\nrf24.X.production.o
+_UART1_ParityErrorHandler 569 0 BANK5 1 bssBANK5 dist/default/production\nrf24.X.production.o
+__end_of_SPI1_Host FE35 0 MEDIUMCONST 0 mediumconst dist/default/production\nrf24.X.production.o
+__end_of_SPI1_Open 1056C 0 CODE 0 text45 dist/default/production\nrf24.X.production.o
+__end_of_UART1_Write 11182 0 CODE 0 text21 dist/default/production\nrf24.X.production.o
+_SPI1_TxCompleteCallback 5E2 0 BANK5 1 nvBANK5 dist/default/production\nrf24.X.production.o
+stackhi 0 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+stacklo 0 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+nrf_check_configuration@i 555 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_OSCCON1 AD 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_OSCCON3 AF 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_OSCTUNE B0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__Lirdata 0 0 CODE 0 irdata dist/default/production\nrf24.X.production.o
+__Livt0x8 8 0 CODE 0 ivt0x8 dist/default/production\nrf24.X.production.o
+_INT1_InterruptHandler 575 0 BANK5 1 bssBANK5 dist/default/production\nrf24.X.production.o
+_UART1_DefaultParityErrorCallback 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_INT1_DefaultInterruptHandler 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__Lspace_0 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__Lspace_1 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__Lspace_2 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__Lspace_4 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__pbssCOMRAM 55C 0 COMRAM 1 bssCOMRAM dist/default/production\nrf24.X.production.o
+__HcstackBANK5 0 0 ABS 0 cstackBANK5 dist/default/production\nrf24.X.production.o
+_SPI1_ByteWrite 10F90 0 CODE 0 text27 dist/default/production\nrf24.X.production.o
+_PIR1bits 4AF 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_PIR3bits 4B1 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_PIR6bits 4B4 0 ABS 0 - dist/default/production\nrf24.X.production.o
+vfpfcnvrt@convarg 531 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__LcstackCOMRAM 0 0 ABS 0 cstackCOMRAM dist/default/production\nrf24.X.production.o
+printf@ap 544 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+UART1_ParityErrorCallbackRegister@callbackHandler 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_SPI1TCNTH 83 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SPI1TCNTL 82 0 ABS 0 - dist/default/production\nrf24.X.production.o
+end_of_initialization 10BAE 0 CODE 0 cinit dist/default/production\nrf24.X.production.o
+_SPI1_Host FE0B 0 MEDIUMCONST 0 mediumconst dist/default/production\nrf24.X.production.o
+_SPI1_Open 10498 0 CODE 0 text45 dist/default/production\nrf24.X.production.o
+_read_prec_or_width 1063C 0 CODE 0 text23 dist/default/production\nrf24.X.production.o
+__Lnvrram 0 0 COMRAM 1 nvrram dist/default/production\nrf24.X.production.o
+_UART1_Read 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+fputc@c 503 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+fputs@c 510 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+fputs@i 511 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+fputs@s 50C 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_nrf_write_register 10F34 0 CODE 0 text10 dist/default/production\nrf24.X.production.o
+vfprintf@fmt 53A 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__end_of_SPI1_ByteRead 10FE4 0 CODE 0 text28 dist/default/production\nrf24.X.production.o
+_nrf_write_payload 10DBE 0 CODE 0 text3 dist/default/production\nrf24.X.production.o
+__Hreset_vec 4 0 CODE 0 reset_vec dist/default/production\nrf24.X.production.o
+__HbssBANK5 0 0 ABS 0 bssBANK5 dist/default/production\nrf24.X.production.o
+_UART1_FramingErrorHandler 56F 0 BANK5 1 bssBANK5 dist/default/production\nrf24.X.production.o
+_UART1_OverrunErrorHandler 56C 0 BANK5 1 bssBANK5 dist/default/production\nrf24.X.production.o
+_INT0_InterruptHandler 578 0 BANK5 1 bssBANK5 dist/default/production\nrf24.X.production.o
+_UART1_IsTxReady 10FE4 0 CODE 0 text22 dist/default/production\nrf24.X.production.o
+_INT1_SetInterruptHandler 1114E 0 CODE 0 text42 dist/default/production\nrf24.X.production.o
+__Lramtop 2600 0 RAM 0 ramtop dist/default/production\nrf24.X.production.o
+nrf_write_register_multi@tx_data 507 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__Lrparam 0 0 COMRAM 1 rparam dist/default/production\nrf24.X.production.o
+__pcinit 10B4E 0 CODE 0 cinit dist/default/production\nrf24.X.production.o
+vfpfcnvrt@ap 52D 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+vfpfcnvrt@cp 536 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+vfpfcnvrt@fp 529 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__ptext0 10914 0 CODE 0 text0 dist/default/production\nrf24.X.production.o
+__ptext1 10EFE 0 CODE 0 text1 dist/default/production\nrf24.X.production.o
+__ptext2 1056C 0 CODE 0 text2 dist/default/production\nrf24.X.production.o
+__ptext3 10DBE 0 CODE 0 text3 dist/default/production\nrf24.X.production.o
+__ptext4 10EC6 0 CODE 0 text4 dist/default/production\nrf24.X.production.o
+__ptext5 10D22 0 CODE 0 text5 dist/default/production\nrf24.X.production.o
+__ptext6 1116A 0 CODE 0 text6 dist/default/production\nrf24.X.production.o
+__ptext7 11172 0 CODE 0 text7 dist/default/production\nrf24.X.production.o
+__ptext8 10992 0 CODE 0 text8 dist/default/production\nrf24.X.production.o
+__ptext9 10D72 0 CODE 0 text9 dist/default/production\nrf24.X.production.o
+__Lstruct 0 0 COMRAM 1 struct dist/default/production\nrf24.X.production.o
+vfprintf@ap 53C 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+vfprintf@fp 538 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+vfprintf@cfmt 53E 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__Ltext10 0 0 ABS 0 text10 dist/default/production\nrf24.X.production.o
+__Ltext11 0 0 ABS 0 text11 dist/default/production\nrf24.X.production.o
+__Ltext12 0 0 ABS 0 text12 dist/default/production\nrf24.X.production.o
+__Ltext13 0 0 ABS 0 text13 dist/default/production\nrf24.X.production.o
+__Ltext14 0 0 ABS 0 text14 dist/default/production\nrf24.X.production.o
+__Ltext15 0 0 ABS 0 text15 dist/default/production\nrf24.X.production.o
+__Ltext16 0 0 ABS 0 text16 dist/default/production\nrf24.X.production.o
+__Ltext17 0 0 ABS 0 text17 dist/default/production\nrf24.X.production.o
+__Ltext18 0 0 ABS 0 text18 dist/default/production\nrf24.X.production.o
+__Ltext19 0 0 ABS 0 text19 dist/default/production\nrf24.X.production.o
+__Ltext20 0 0 ABS 0 text20 dist/default/production\nrf24.X.production.o
+__Ltext21 0 0 ABS 0 text21 dist/default/production\nrf24.X.production.o
+__Ltext22 0 0 ABS 0 text22 dist/default/production\nrf24.X.production.o
+__Ltext23 0 0 ABS 0 text23 dist/default/production\nrf24.X.production.o
+__Ltext24 0 0 ABS 0 text24 dist/default/production\nrf24.X.production.o
+__Ltext25 0 0 ABS 0 text25 dist/default/production\nrf24.X.production.o
+__Ltext26 0 0 ABS 0 text26 dist/default/production\nrf24.X.production.o
+__Ltext27 0 0 ABS 0 text27 dist/default/production\nrf24.X.production.o
+__Ltext28 0 0 ABS 0 text28 dist/default/production\nrf24.X.production.o
+__Ltext29 0 0 ABS 0 text29 dist/default/production\nrf24.X.production.o
+__Ltext30 0 0 ABS 0 text30 dist/default/production\nrf24.X.production.o
+__Ltext31 0 0 ABS 0 text31 dist/default/production\nrf24.X.production.o
+__Ltext32 0 0 ABS 0 text32 dist/default/production\nrf24.X.production.o
+__Ltext33 0 0 ABS 0 text33 dist/default/production\nrf24.X.production.o
+__Ltext34 0 0 ABS 0 text34 dist/default/production\nrf24.X.production.o
+__Ltext35 0 0 ABS 0 text35 dist/default/production\nrf24.X.production.o
+__Ltext36 0 0 ABS 0 text36 dist/default/production\nrf24.X.production.o
+__Ltext37 0 0 ABS 0 text37 dist/default/production\nrf24.X.production.o
+__Ltext38 0 0 ABS 0 text38 dist/default/production\nrf24.X.production.o
+__Ltext39 0 0 ABS 0 text39 dist/default/production\nrf24.X.production.o
+__Ltext40 0 0 ABS 0 text40 dist/default/production\nrf24.X.production.o
+__Ltext41 0 0 ABS 0 text41 dist/default/production\nrf24.X.production.o
+__Ltext42 0 0 ABS 0 text42 dist/default/production\nrf24.X.production.o
+__Ltext43 0 0 ABS 0 text43 dist/default/production\nrf24.X.production.o
+__Ltext44 0 0 ABS 0 text44 dist/default/production\nrf24.X.production.o
+__Ltext45 0 0 ABS 0 text45 dist/default/production\nrf24.X.production.o
+__Ltext46 0 0 ABS 0 text46 dist/default/production\nrf24.X.production.o
+__Ltext47 0 0 ABS 0 text47 dist/default/production\nrf24.X.production.o
+__Ltext48 0 0 ABS 0 text48 dist/default/production\nrf24.X.production.o
+__Ltext49 0 0 ABS 0 text49 dist/default/production\nrf24.X.production.o
+__ramtop 2600 0 RAM 0 ramtop C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+_vfprintf 10CD0 0 CODE 0 text14 dist/default/production\nrf24.X.production.o
+_nrf_write_register_multi 10D72 0 CODE 0 text9 dist/default/production\nrf24.X.production.o
+__Lpowerup 0 0 CODE 0 powerup dist/default/production\nrf24.X.production.o
+__Leeprom_data 0 0 EEDATA 0 eeprom_data dist/default/production\nrf24.X.production.o
+__H__absolute__ 0 0 ABS 0 __absolute__ dist/default/production\nrf24.X.production.o
+__Lreset_vec 0 0 CODE 0 reset_vec dist/default/production\nrf24.X.production.o
+INT0_SetInterruptHandler@InterruptHandler 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_SPI1_RxCompleteCallback 5E5 0 BANK5 1 nvBANK5 dist/default/production\nrf24.X.production.o
+__end_of_vfprintf 10D22 0 CODE 0 text14 dist/default/production\nrf24.X.production.o
+_SLRCONA 403 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SLRCONB 40B 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SLRCONC 413 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SLRCOND 41B 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SLRCONE 423 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SLRCONF 42B 0 ABS 0 - dist/default/production\nrf24.X.production.o
+___heap_hi 0 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+___heap_lo 0 0 ABS 0 - C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+__end_of_SPI1_ByteWrite 10FBA 0 CODE 0 text27 dist/default/production\nrf24.X.production.o
+___param_bank 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+___intlo_stack_hi 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+___intlo_stack_lo 0 0 STACK 2 stack C:\Users\Admin\AppData\Local\Temp\xcAsdmk.\driver_tmp_14.o
+__Hbigdata 0 0 BIGRAM 1 bigdata dist/default/production\nrf24.X.production.o
+nrf_write_register@tx_data 509 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__end_of__initialization 10BAE 0 CODE 0 cinit dist/default/production\nrf24.X.production.o
+nrf_read_register@readbyte 504 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_nrf_read_register 11032 0 CODE 0 text26 dist/default/production\nrf24.X.production.o
+__Libigdata 0 0 CODE 0 ibigdata dist/default/production\nrf24.X.production.o
+__pidataBANK5 11192 0 CODE 0 idataBANK5 dist/default/production\nrf24.X.production.o
+__pidataBANK6 110BC 0 CODE 0 idataBANK6 dist/default/production\nrf24.X.production.o
+_U1UIRbits 2B1 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__Lclrtext 0 0 ABS 0 clrtext dist/default/production\nrf24.X.production.o
+__end_of_INT0_SetInterruptHandler 1116A 0 CODE 0 text43 dist/default/production\nrf24.X.production.o
+_SPI1CLK 8C 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SPI1RXB 80 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_SPI1TXB 81 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__pcstackCOMRAM 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+nrf_send_data@data 546 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__pmediumconst FDC2 0 MEDIUMCONST 0 mediumconst dist/default/production\nrf24.X.production.o
+putch@txData 502 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__end_of_main 10992 0 CODE 0 text0 dist/default/production\nrf24.X.production.o
+__end_of_xtoa 10498 0 CODE 0 text16 dist/default/production\nrf24.X.production.o
+SPI1_BufferRead@bufferData 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+SPI1_BufferRead@bufferSize 503 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_SPI1_IsTxReady 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__end_of_UART1 FE0B 0 MEDIUMCONST 0 mediumconst dist/default/production\nrf24.X.production.o
+printf@fmt 540 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_IOCAF 407 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_IOCAN 406 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_IOCAP 405 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_IOCBF 40F 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_IOCBN 40E 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_IOCBP 40D 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_IOCCF 417 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_IOCCN 416 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_IOCCP 415 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_IOCEF 427 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_IOCEN 426 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_IOCEP 425 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__end_of_fputc 107D2 0 CODE 0 text19 dist/default/production\nrf24.X.production.o
+__end_of_fputs 10E4A 0 CODE 0 text18 dist/default/production\nrf24.X.production.o
+_OSCEN B3 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_TRISA 4C6 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_TRISB 4C7 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_TRISC 4C8 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_TRISD 4C9 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_TRISE 4CA 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_TRISF 4CB 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_U1P1H 2A6 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_U1P1L 2A5 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_U1P2H 2A8 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_U1P2L 2A7 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_U1P3H 2AA 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_U1P3L 2A9 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_U1RXB 2A1 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_U1TXB 2A3 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_U1UIR 2B1 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_UART1 FDC3 0 MEDIUMCONST 0 mediumconst dist/default/production\nrf24.X.production.o
+__end_of_putch 110FA 0 CODE 0 text20 dist/default/production\nrf24.X.production.o
+__HRAM 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__Hbss 0 0 RAM 1 bss dist/default/production\nrf24.X.production.o
+__Hram 0 0 ABS 0 ram dist/default/production\nrf24.X.production.o
+__Hsfr 0 0 ABS 0 sfr dist/default/production\nrf24.X.production.o
+__LRAM 1 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__Lbss 0 0 RAM 1 bss dist/default/production\nrf24.X.production.o
+__Lram 0 0 ABS 0 ram dist/default/production\nrf24.X.production.o
+__Lsfr 0 0 ABS 0 sfr dist/default/production\nrf24.X.production.o
+_nrf_init 10992 0 CODE 0 text8 dist/default/production\nrf24.X.production.o
+_flags 55E 0 COMRAM 1 bssCOMRAM dist/default/production\nrf24.X.production.o
+_fputc 10708 0 CODE 0 text19 dist/default/production\nrf24.X.production.o
+_fputs 10E06 0 CODE 0 text18 dist/default/production\nrf24.X.production.o
+_putch 110DC 0 CODE 0 text20 dist/default/production\nrf24.X.production.o
+read_prec_or_width@fmt 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+_width 55C 0 COMRAM 1 bssCOMRAM dist/default/production\nrf24.X.production.o
+nrf_write_register_multi@reg 506 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__HdataBANK5 0 0 ABS 0 dataBANK5 dist/default/production\nrf24.X.production.o
+__HdataBANK6 0 0 ABS 0 dataBANK6 dist/default/production\nrf24.X.production.o
+__end_of_nrf_init 10A04 0 CODE 0 text8 dist/default/production\nrf24.X.production.o
+__initialization 10B4E 0 CODE 0 cinit dist/default/production\nrf24.X.production.o
+__pbssBANK5 560 0 BANK5 1 bssBANK5 dist/default/production\nrf24.X.production.o
+__Hfardata 0 0 FARRAM 0 fardata dist/default/production\nrf24.X.production.o
+nrf_read_register_multi@data 507 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__Hsmallconst 0 0 SMALLCONST 0 smallconst dist/default/production\nrf24.X.production.o
+nrf_init@tx_address 50B 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+__Lifardata 0 0 CODE 0 ifardata dist/default/production\nrf24.X.production.o
+_U1ERRIRbits 2B2 0 ABS 0 - dist/default/production\nrf24.X.production.o
+_UART1_TransmitDisable 0 0 ABS 0 - dist/default/production\nrf24.X.production.o
+__Hintsave_regs 0 0 BIGRAM 1 intsave_regs dist/default/production\nrf24.X.production.o
+nrf_send_data@full_data 5A1 0 BANK5 1 cstackBANK5 dist/default/production\nrf24.X.production.o
+read_prec_or_width@ap 503 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+UART1_Write@txData 501 0 COMRAM 1 cstackCOMRAM dist/default/production\nrf24.X.production.o
+# %SPLITSTAB Section
+# This section enumerates all the psect splits performed by the assembler.
+# The beginning of the section is indicated by %SPLITSTAB.
+# Each line is a record a particular split, where the parent psect is on
+# the left and the child on the right.  Note that a child psect is always
+# split form the top of the parent psect. All splits from a given parent
+# are listed in the order in which they occurred.
+%SPLITSTAB
+# %DABS Section
+# This section contains a table of all usuage of the assember
+# directive DABS in the program. Each line has the following format:
+#   <name> <space> <address> <size>
+# If the DABS was originally labelled then that shall be <name>,
+# otherwise name will be "-".  The <space> number is in decimal.
+# <address> and <size> are in byte units as unqaulified hexadecimal
+%DABS
+# %SEGMENTS Section
+# This sections enumerates the segments of the program.  Each segment
+# is described on a single line as follows:
+#    <name> <space> <link address> <file address> <size> <delta>
+# Addresses and size are in unqualified hexadecimal.  The link address
+# and size are in units of delta. The file address is in units of bytes.
+# All other numeric quantities are in decimal.
+%SEGMENTS
+ivt0x8 0 8 8 16 1
+text12 0 10000 10000 1197 1
+text49 0 11198 11198 2 1
+cstackCOMRAM 1 501 501 5E 1
+reset_vec 0 0 0 4 1
+bssBANK5 1 560 560 8D 1
+dataBANK6 1 600 600 20 1
+mediumconst 0 FDC2 FDC2 23E 1
+# %NOTES Section
+# This section contains data of all the note-psects.  The beginning of the section
+# is indicated by %NOTES. The first line indicates the name and decimal
+# byte-length of the first note-psect, e.g.
+#   $codecov_info_hdr 16
+# Each line that follows contains the byte-data of the psect in hexadecimal as a
+# space-separated list. These lines are limited to 16 bytes of data.
+%NOTES
